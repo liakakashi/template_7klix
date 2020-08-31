@@ -8,7 +8,7 @@
 :root {
   --golden: #F7931E;
   --blue: #007bff;
-  --indigo: #6610f2;
+  --indigo: #6610f2;u
   --purple: #6f42c1;
   --pink: #e83e8c;
   --red: #dc3545;
@@ -14827,6 +14827,22 @@ ul.search-items li a:hover {
 
 /*--/login--*/
 
+/*--/User--*/
+.navbar-right a.btn.user-hny {
+  color: #000;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: 600;
+  width: 190px;
+
+}
+
+.navbar-right a.btn.user-hny:hover {
+  color: var(--theme-golden);
+  transition: 0.5s ease-out;
+}
+
+
 /*--/bell--*/
 .navbar-right a.btn.bell-hny {
   color: #000;
@@ -14837,19 +14853,6 @@ ul.search-items li a:hover {
 }
 
 .navbar-right a.btn.bell-hny:hover {
-  color: var(--theme-golden);
-  transition: 0.5s ease-out;
-}
-
-/*--/user--*/
-.navbar-right a.btn.user-hny {
-  color: #000;
-  font-size: 16px;
-  font-weight: 600;
-
-}
-
-.navbar-right a.btn.user-hny:hover {
   color: var(--theme-golden);
   transition: 0.5s ease-out;
 }
