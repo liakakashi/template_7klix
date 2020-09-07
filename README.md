@@ -15,6 +15,7 @@ Yang Perlu Diperbaiki
 - Featured (Video samping kanan belum)
 - Dropdown Icon More samping tombol login/user belum ada
 - Dashboard My Account (Bagian Profile masih belum diatur)
+- Navbar Kanan bagian user belum rapi
 
 Belum
 - Search Result
