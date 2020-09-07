@@ -8,7 +8,7 @@ Selesai
 - Login
 - Register
 - Dasboard
-- Dashboard (Dashboard, My Account, My History)
+- Dashboard (Dashboard, My History)
 
 Yang Perlu Diperbaiki
 - MainPage (Header Beda Desain)
