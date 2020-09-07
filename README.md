@@ -1,4 +1,4 @@
-[UPDATE] Belum selesai, yang di upload cuman yang udah responsive tapi rinci konten belum sedetail mockup.
+<b>[UPDATE]</b> Belum selesai, yang di upload cuman yang udah responsive tapi rinci konten belum sedetail mockup.
 
 Selesai
 - Home Non Login
