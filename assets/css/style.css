@@ -16870,6 +16870,26 @@ nav#breadcrumbs a:hover {
 
 }
 
+/*-- Form-Manage-Account --*/
+
+
+/*-- My Reward --*/
+
+.klix-myreward {
+  margin-top: 10px;
+  padding: 20px 100px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  height: 0 auto;
+}
+
+.klix-myreward h5{
+  padding: 5px;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 15px;
+  color:#000;
+}
 
 /*-- Poin --*/
 
