@@ -16844,14 +16844,32 @@ nav#breadcrumbs a:hover {
 .klix-profile {
   height: 0 auto;
   background-color: var(--theme-white);
-  padding: 20px 100px;
+  padding: 50px 100px;
 }
 
 .klix-profile .profile {
   color: var(--theme-dark);
 }
 
-/*-- Profile --*/
+.klix-profile h4 {
+  font-weight: normal;
+	font-size: 24px;
+	line-height: 29px;
+
+	color: #000000;
+}
+
+.klix-profile h5 {
+	 font-weight: normal;
+	font-size: 14px;
+	line-height: 17px;
+	/* identical to box height */
+
+
+	color: #000000;
+
+}
+
 
 /*-- Poin --*/
 
@@ -16863,6 +16881,38 @@ nav#breadcrumbs a:hover {
   border-radius: 10px;
 }
 
+.klix-poin h3 {
+  font-style: normal;
+	font-weight: bold;
+	font-size: 48px;
+	line-height: 59px;
+	color: var(--theme-golden);
+}
+
+.klix-poin h4 {
+  font-style: normal;
+	font-weight: 800;
+	font-size: 20px;
+	line-height: 24px;
+}
+
+.klix-poin h5 {
+  font-style: normal;
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 17px;
+
+	color: #828282;
+}
+
+
+.klix-poin h6 {
+  font-style: normal;
+	font-weight: 600;
+	font-size: 12px;
+	line-height: 15px;
+}
+
 .klix-poin .earn-poin {
   color: var(--theme-golden);
 }
@@ -16872,11 +16922,20 @@ nav#breadcrumbs a:hover {
   color: var(--theme-dark);
 }
 
-.klix-poin .reward{
+.klix-poin .reward h6{
   color: var(--theme-golden);
+	font-style: normal;
+	font-weight: bold;
+	font-size: 12px;
+	line-height: 15px;
 }
 
 /*-- Profile --*/
+
+/*-- Personal-Info --*/
+
+
+/*-- Personal-Info --*/
 
 /*--/about--*/
 .klix-counter-stats-info {
