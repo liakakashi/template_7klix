@@ -1,5 +1,8 @@
 <b>[UPDATE]</b> Belum selesai, yang di upload cuman yang udah responsive tapi rinci konten belum sedetail mockup.
 
+Tambahan style css
+- Filename : style_update.css
+
 Selesai
 - Home Non Login
 - Entertaiment
@@ -9,6 +12,7 @@ Selesai
 - Register
 - Dasboard
 - Dashboard (Dashboard, My History)
+- Live TV
 
 Yang Perlu Diperbaiki
 - MainPage (Header Beda Desain)
@@ -16,6 +20,7 @@ Yang Perlu Diperbaiki
 - Dropdown Icon More samping tombol login/user belum ada
 - Dashboard My Account (Bagian Profile masih belum diatur)
 - Navbar Kanan belum
+
 Belum
 - Search Result
 - Dashboard : My Poin, QR Scanner, Notifications
