@@ -12,6 +12,7 @@
 	<!-- Template CSS -->
 	<link rel="stylesheet" href="assets/css/style.css">
 	<link rel="stylesheet" href="assets/css/style_update.css">
+	<link rel="stylesheet" href="assets/css/style-searchresult.css">
 	<!-- Template CSS -->
 	<link href="//fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,600&display=swap"
 		rel="stylesheet">
@@ -38,11 +39,11 @@
 
 				<div class="collapse navbar-collapse" id="navbarSupportedContent">
 					<ul class="navbar-nav mr-auto">
-						<li class="nav-item active">
+						<li class="nav-item">
 							<a class="nav-link" href="index.html">Home</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="#">Live TV</a>
+							<a class="nav-link" href="live-tv.html">Live TV</a>
 						</li>
 						<li class="nav-item">
 							<a class="nav-link" href="entertaiment.html">Entertaiment</a>
@@ -141,338 +142,263 @@
 		</nav>
 	</div>
 	<!--breadcrumbs-->
-	
+
 	<!--live-tv-->
 	<section class="klix-blog-single">
 		<div class="single blog py-5">
 			<div class="container py-lg-4">
-				<div class="title-content text-left">
-					<h3 class="hny-title">Single Page</h3>
-				</div>
-				<div class="d-grid grid-colunm-2 mt-4">
+				<div class="d-grid grid-col-2 mt-4">
 					<!-- left side blog post content -->
-					<div class="single-left">
 						<div class="single-left1">
-							<div class="blg-img">
-								<img src="assets/images/banner1.jpg" alt=" " class="img-fluid">
-							</div>
-							<div class="btom-cont btom-cont1 pt-4 mt-md-2">
-								<h4><span class="fa fa-clock-o mr-1" aria-hidden="true"></span> 12th May, 2020</h4>
-								<h5 class="card-title"><a href="blog-single.html">Lorem ipsum dolor sit amet consectetur adipisicing elit</a></h5>
-								<ul class="admin-post">
-									<li>
-										<a href="blog-single.html"><span class="fa fa-user"></span> Admin</a>
-									</li>
-									<li>
-										<a href="blog-single.html"><span class="fa fa-heart-o"></span> 50</a>
-									</li>
-									<li>
-										<a href="blog-single.html"><span class="fa fa-comments-o"></span> 20
-											Comments</a>
-									</li>
-								</ul>
-								<p class="mb-4 mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui,
-									doloribus
-									delectus ab sunt quasi eaque deleniti, quae ipsum suscipit sapiente neque nobis eum
-									porro eligendi voluptatibus voluptatem ex natus nisi? Et aspernatur ab voluptatum
-									repellendus molestiae beatae, illum placeat, temporibus laboriosam sit rerum? Ullam
-									optio eveniet impedit cupiditate ipsa pariatur!</p>
-								<p class="">The point of using Lorem Ipsum is that it has a more-or-less normal
-									distribution
-									of letters, as opposed to using 'Content here, content here', making it look like
-									readable English. Many desktop publishing packages and web page </p>
-
-								<blockquote class="blockquote my-5">
-									<div class="icon-quote"><span class="fa fa-quote-left" aria-hidden="true"></span>
+							<!-- filter-categories -->
+							<aside class="posts">
+								<h3 class="aside-title-search">Categories</h3>
+								<div class="checkbox-category">
+									<div class="custom-control custom-checkbox my-1 mr-sm-2">
+										<input type="checkbox" class="custom-control-input" id="check-1">
+										<label style="padding-top: 3px;" class="custom-control-label" for="check-1">Adventure</label>
 									</div>
-									Lorem ipsum dolor sit amet,Ea consequuntur illum facere aperiam sequi optio
-									consectetur.Ea consequuntur illum facere aperiam sequi optio.
-									<footer class="blockquote-footer mt-3">
-										Alexander smith</footer>
-								</blockquote>
-								<h5 class="card-title mt-lg-5 mt-4 ">
-									<a href="blog-single.html">The only thing that will possibly be different </a>
-								</h5>
-								<p class="mb-4 pt-2">The point of using Lorem Ipsum is that it has a more-or-less normal
-									distribution
-									of letters, as opposed to using 'Content here, content here', making it look like
-									readable English. Many desktop publishing packages and web page </p>
-
-								<div class="sing-post-thumb row">
-									<div class="col-sm-6">
-										<a href="#url"><img src="assets/images/1.jpg" class="img-fluid" alt=""></a>
+									<div class="custom-control custom-checkbox my-1 mr-sm-2">
+										<input type="checkbox" class="custom-control-input" id="check-2">
+										<label style="padding-top: 3px;" class="custom-control-label" for="check-2">Digital</label>
 									</div>
-									<div class="col-sm-6 mt-sm-0 mt-3">
-										<a href="#url"><img src="assets/images/2.jpg" class="img-fluid" alt=""></a>
+									<div class="custom-control custom-checkbox my-1 mr-sm-2">
+										<input type="checkbox" class="custom-control-input" id="check-3">
+										<label style="padding-top: 3px;" class="custom-control-label" for="check-3">Edutaiment</label>
+									</div>
+									<div class="custom-control custom-checkbox my-1 mr-sm-2">
+										<input type="checkbox" class="custom-control-input" id="check-4">
+										<label style="padding-top: 3px;" class="custom-control-label" for="check-4">Entertaiment</label>
+									</div>
+									<div class="custom-control custom-checkbox my-1 mr-sm-2">
+										<input type="checkbox" class="custom-control-input" id="check-5">
+										<label style="padding-top: 3px;" class="custom-control-label" for="check-5">Misteri</label>
+									</div>
+									<div class="custom-control custom-checkbox my-1 mr-sm-2">
+										<input type="checkbox" class="custom-control-input" id="check-6">
+										<label style="padding-top: 3px;" class="custom-control-label" for="check-6">Nostalgia</label>
+									</div>
+									<div class="custom-control custom-checkbox my-1 mr-sm-2">
+										<input type="checkbox" class="custom-control-input" id="check-7">
+										<label style="padding-top: 3px;" class="custom-control-label" for="check-7">Religi</label>
+									</div>
+									<div class="custom-control custom-checkbox my-1 mr-sm-2">
+										<input type="checkbox" class="custom-control-input" id="check-8">
+										<label style="padding-top: 3px;" class="custom-control-label" for="check-8">Tasty</label>
 									</div>
 								</div>
-								<h5 class="card-title mt-lg-5 mt-4 ">
-									<a href="blog-single.html">Summary </a>
-								</h5>
-								<p class="mb-4 pt-2">The point of using Lorem Ipsum is that it has a more-or-less normal
-									distribution
-									of letters, as opposed to using 'Content here, content here', making it look like
-									readable English. Many desktop publishing packages and web page </p>
-
-								<ul class="share-post my-5">
-									<li>
-										<h4 class="side-title mr-sm-4 mr-2">Share this post :</h4>
-									</li>
-									<li>
-										<a href="#link" class="facebook" title="Facebook">
-											<span class="fa fa-facebook" aria-hidden="true"></span>
-										</a>
-									</li>
-									<li>
-										<a href="#link" class="twitter" title="Twitter">
-											<span class="fa fa-twitter" aria-hidden="true"></span>
-										</a>
-									</li>
-									<li>
-										<a href="#link" class="instagram" title="Instagram">
-											<span class="fa fa-instagram" aria-hidden="true"></span>
-										</a>
-									</li>
-								</ul>
-							</div>
-						</div>
-						<nav class="post-navigation row mt-5 py-4">
-							<div class="post-prev col-6 pr-sm-5">
-								<span class="nav-title">
-								  <span class="fa fa-angle-double-left"></span> Prev Post </span>
-								<a href="#url" rel="prev" class="posts-view posts-view-left">
-								  <img src="assets/images/m4.jpg" class="img-fluid postimg d-none d-md-block">
-								  <label>Lorem ipsum dolor sit</label>
-								</a>
-							  </div>
-							  <div class="post-next col-6 pl-sm-5 text-right">
-								<span class="nav-title">
-								  Next Post <span class="fa fa-angle-double-right"></span> </span>
-								<a href="#url" rel="next" class="posts-view posts-view-right">
-								  <label>Lorem ipsum dolor sit</label>
-								  <img src="assets/images/m5.jpg" class="img-fluid postimg d-none d-md-block">
-								</a>
-							  </div>
-						</nav>
-						<div class="comments mt-5">
-							<h3 class="post-content-title">Comments</h3>
-
-							<div class="media mt-5">
-								<div class="img-circle">
-									<img src="assets/images/c1.jpg" class="mr-3 rounded-circle" alt="...">
-								</div>
-								<div class="media-body">
-									<h5 class="mt-0">William James</h5>
-									<span class="time">29 minutes ago</span>
-									<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, officiis rerum
-										assumenda facere maxime accusamus cum. Numquam harum vitae id. Nemo qui fugiat
-										nam quasi?</p>
-									<a href="#reply-form" class="reply">Reply</a>
-
-									<div class="media mt-3">
-										<a class="" href="#">
-											<div class="img-circle img-circle-sm">
-												<img src="assets/images/c2.jpg" class="mr-3 rounded-circle" alt="...">
-											</div>
-										</a>
-										<div class="media-body">
-											<h5 class="mt-0">Benjamin Lucas</h5>
-											<span class="time">4 hours ago</span>
-											<p>In gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras
-												purus odio. Fusce condimentum nunc ac nisi vulputate
-												fringilla. Donec lacinia congue felis in faucibus.</p>
-											<a href="#reply-form" class="reply">Reply</a>
+							</aside>
+							<!-- top-five -->
+							<aside class="posts">
+								<h3 class="aside-title-search">Top 5 this Week</h3>
+								<div class="posts-grids">
+									<div class="posts-grid-inner">
+										<div class="posts-grid-left pr-0">
+											<a href="">
+												<h1>1</h1>
+											</a>
+										</div>
+										<div class="posts-grid-right">
+											<h4>
+												<a href="" class="title-program">Opera Van Java</a>
+											</h4>
+											<h6>
+												<a href="" class="category-program">Entertaiment</a>
+											</h6>
+										</div>
+									</div>
+									<div class="posts-grid-inner">
+										<div class="posts-grid-left pr-0">
+											<a href="">
+												<h1>2</h1>
+											</a>
+										</div>
+										<div class="posts-grid-right">
+											<h4>
+												<a href="" class="title-program">Si Bolang</a>
+											</h4>
+											<h6>
+												<a href="" class="category-program">Edutaiment</a>
+											</h6>
+										</div>
+									</div>
+									<div class="posts-grid-inner">
+										<div class="posts-grid-left pr-0">
+											<a href="">
+												<h1>3</h1>
+											</a>
+										</div>
+										<div class="posts-grid-right">
+											<h4>
+												<a href="" class="title-program">Hitam Putih</a>
+											</h4>
+											<h6>
+												<a href="" class="category-program">Entertaiment</a>
+											</h6>
+										</div>
+									</div>
+									<div class="posts-grid-inner">
+										<div class="posts-grid-left pr-0">
+											<a href="">
+												<h1>4</h1>
+											</a>
+										</div>
+										<div class="posts-grid-right">
+											<h4>
+												<a href="" class="title-program">Jejak Si Gundul</a>
+											</h4>
+											<h6>
+												<a href="" class="category-program">Adventure</a>
+											</h6>
+										</div>
+									</div>
+									<div class="posts-grid-inner">
+										<div class="posts-grid-left pr-0">
+											<a href="">
+												<h1>5</h1>
+											</a>
+										</div>
+										<div class="posts-grid-right">
+											<h4>
+												<a href="" class="title-program">Makan Besar</a>
+											</h4>
+											<h6>
+												<a href="" class="category-program">Foody</a>
+											</h6>
 										</div>
 									</div>
 								</div>
-							</div>
-
-
-							<div class="media mt-5">
-								<div class="img-circle">
-									<img src="assets/images/c3.jpg" class="mr-3 rounded-circle" alt="...">
-								</div>
-								<div class="media-body">
-									<h5 class="mt-0">Isabella Mia</h5>
-									<span class="time">16 hours ago</span>
-									<p>Facere atque minus necessitatibus deserunt quibusdam voluptas quo? Omnis
-										temporibus at, reprehenderit exercitationem dolores fuga, iste quidem earum
-										nihil iusto repellendus. Assumenda alias illo dignissimos corrupti doloribus.
-										Tenetur architecto rerum voluptate mollitia accusamus cumque, dolorem eveniet
-										maxime?</p>
-									<a href="#reply-form" class="reply">Reply</a>
-								</div>
-							</div>
-							<div class="media mt-5">
-								<div class="img-circle">
-									<img src="assets/images/c1.jpg" class="mr-3 rounded-circle" alt="...">
-								</div>
-								<div class="media-body">
-									<h5 class="mt-0">Oliver Bradley</h5>
-									<span class="time">Yerterday</span>
-									<p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante
-										sollicitudin. Cras purus odio. Fusce condimentum nunc
-										ac
-										nisi vulputate fringilla. Donec lacinia congue felis in faucibus.</p>
-									<a href="#reply-form" class="reply">Reply</a>
-								</div>
-							</div>
-
+							</aside>
 						</div>
-						<div class="testi-top mt-5 pt-3">
-							<h3 class="post-content-title">Leave a Message</h3>
-							<div class="form-commets mt-5">
-								<form action="#" method="post">
-									<div class="media-form">
-										<input type="text" class="mb-3" name="Name" required="Name" placeholder="Your Name">
-										<input type="email" class="mb-3" name="Email" required="Email" placeholder="Your Email">
-									</div>
-									<textarea name="Message" required="" placeholder="Write your comments here"></textarea>
-									<div class="text-right mt-3">
-										<button class="btn read-button" type="submit">Post comment</button>
-									</div>
-
-								</form>
-							</div>
-						</div>
-					</div>
 					<!-- left side blog post content -->
 
 					<!-- right side bar -->
 					<div class="right-side-bar">
 						<aside class="posts">
-							<h3 class="aside-title mb-3">Search Here</h3>
-							<form class="form-inline search-form" action="#" method="post">
-								<input class="form-control" type="search" placeholder="Enter your Keyword" aria-label="email" required="">
-								<button class="btn search" type="submit"><span class="fa fa-search"></span></button>
-							  </form>
-						</aside>
-						<aside class="posts">
-							<h3 class="aside-title">Top Movies</h3>
-							<ul class="category">
-								<li><a href="#link"><span class="fa fa-angle-right"></span>All <label> (11)</label></a>
-								</li>
-								<li><a href="#link"><span class="fa fa-angle-right"></span> Romantic
-										<label>(24)</label></a></li>
-								<li><a href="#link"><span class="fa fa-angle-right"></span> Sad <label>(18)</label></a>
-								</li>
-								<li><a href="#link"><span class="fa fa-angle-right"></span> Action
-										<label>(08)</label></a></li>
-								<li><a href="#link"><span class="fa fa-angle-right"></span> Crime
-										<label>(38)</label></a></li>
-								<li><a href="#link"><span class="fa fa-angle-right"></span> Family
-										<label>(26)</label></a></li>
-								<li><a href="#link"><span class="fa fa-angle-right"></span>
-										Commedy<label>(26)</label></a></li>
-							</ul>
-						</aside>
-						<aside class="posts">
-							<h3 class="aside-title">Recent Posts</h3>
+							<h3 class="aside-title-search">Programs</h3>
 							<div class="posts-grids">
+								<h4 class="aside-title-search">Search results for : <b>Opera Van Java</b></h4>
 								<div class="posts-grid-inner">
 									<div class="posts-grid-left pr-0">
-										<a href="blog-single.html">
-											<img src="assets/images/m1.jpg" alt=" " class="img-fluid">
+										<a href="">
+											<img src="assets/images/13.png" alt=" " height="161">
 										</a>
 									</div>
 									<div class="posts-grid-right">
-										<p><span class="fa fa-clock-o mr-1" aria-hidden="true"></span> 12th May, 2020
-										</p>
+										<p> Opera Van Java . Entertaiment</p>
 										<h4>
-											<a href="blog-single.html" class="text-bl">Sed ut perspiciatis</a>
+											<a href="">Ruben Kesel! Betrand Peto Tidak Mengakui Ayahnya | Part 1</a>
 										</h4>
-										<span class="price"> <a href="blog-single.html"> <span class="fa fa-comments-o"></span> 15 Comments</a></span>
+										<h5>
+											<a href="">Sebuah program sketsa komedi yang ikonik & telah dikenal sangat luas oleh pemirsa 
+												layarkaca di tanah air kini hadir dengan format baru....</a>
+										</h5>
+										<div class="text-lg-left mt-3">
+											<button class="btn play-button" type="submit">WATCH NOW</button> <a style="padding-left: 10px;"></a>
+											<button class="btn add-button" type="submit"><i class="fa fa-plus" aria-hidden="true"></i> PLAYLIST</button> <a style="padding-left: 10px;"></a>
+										</div>
 									</div>
 								</div>
-
+								<hr>
 								<div class="posts-grid-inner">
 									<div class="posts-grid-left pr-0">
-										<a href="blog-single.html">
-											<img src="assets/images/m3.jpg" alt=" " class="img-fluid">
+										<a href="">
+											<img src="assets/images/19.png" alt=" " height="161">
 										</a>
 									</div>
 									<div class="posts-grid-right">
-										<p><span class="fa fa-clock-o mr-1" aria-hidden="true"></span> 12th May, 2020
-										</p>
+										<p> Opera Van Java . Entertaiment</p>
 										<h4>
-											<a href="blog-single.html" class="text-bl">Otam rem aperiam</a>
+											<a href="">Ferdian Bikin Mpok Alpa dan Anwar Gak Saling Kenal Part 4</a>
 										</h4>
-										<span class="price"> <a href="blog-single.html"> <span class="fa fa-comments-o"></span> 15 Comments</a></span>
+										<h5>
+											<a href="">Sebuah program sketsa komedi yang ikonik & telah dikenal sangat luas oleh pemirsa 
+												layarkaca di tanah air kini hadir dengan format baru....</a>
+										</h5>
+										<div class="text-lg-left mt-3">
+											<button class="btn play-button" type="submit">WATCH NOW</button> <a style="padding-left: 10px;"></a>
+											<button class="btn add-button" type="submit"><i class="fa fa-plus" aria-hidden="true"></i> PLAYLIST</button> <a style="padding-left: 10px;"></a>
+										</div>
 									</div>
 								</div>
+								<hr>
 								<div class="posts-grid-inner">
 									<div class="posts-grid-left pr-0">
-										<a href="blog-single.html">
-											<img src="assets/images/m4.jpg" alt=" " class="img-fluid">
+										<a href="">
+											<img src="assets/images/20.png" alt=" " height="161">
 										</a>
 									</div>
 									<div class="posts-grid-right">
-										<p><span class="fa fa-clock-o mr-1" aria-hidden="true"></span> 12th May, 2020
-										</p>
+										<p> Opera Van Java . Entertaiment</p>
 										<h4>
-											<a href="blog-single.html" class="text-bl">Sed ut perspiciatis</a>
+											<a href="">Gak Kuat..Preman Diajak Squat Angela Lorenza Part 4</a>
 										</h4>
-										<span class="price"> <a href="blog-single.html"> <span class="fa fa-comments-o"></span> 15 Comments</a></span>
+										<h5>
+											<a href="">Sebuah program sketsa komedi yang ikonik & telah dikenal sangat luas oleh pemirsa 
+												layarkaca di tanah air kini hadir dengan format baru....</a>
+										</h5>
+										<div class="text-lg-left mt-3">
+											<button class="btn play-button" type="submit">WATCH NOW</button> <a style="padding-left: 10px;"></a>
+											<button class="btn add-button" type="submit"><i class="fa fa-plus" aria-hidden="true"></i> PLAYLIST</button> <a style="padding-left: 10px;"></a>
+										</div>
 									</div>
 								</div>
+								<hr>
 								<div class="posts-grid-inner">
 									<div class="posts-grid-left pr-0">
-										<a href="blog-single.html">
-											<img src="assets/images/m5.jpg" alt=" " class="img-fluid">
+										<a href="">
+											<img src="assets/images/12.png" alt=" " height="161">
 										</a>
 									</div>
 									<div class="posts-grid-right">
-										<p><span class="fa fa-clock-o mr-1" aria-hidden="true"></span> 12th May, 2020
-										</p>
+										<p> Opera Van Java . Entertaiment</p>
 										<h4>
-											<a href="blog-single.html" class="text-bl">Unde omnis iste natus</a>
+											<a href="">Sketsa Berantakan Malah Rebutan Nabilla Gomes Part 1</a>
 										</h4>
-										<span class="price"> <a href="blog-single.html"> <span class="fa fa-comments-o"></span> 15 Comments</a></span>
+										<h5>
+											<a href="">Sebuah program sketsa komedi yang ikonik & telah dikenal sangat luas oleh pemirsa 
+												layarkaca di tanah air kini hadir dengan format baru....</a>
+										</h5>
+										<div class="text-lg-left mt-3">
+											<button class="btn play-button" type="submit">WATCH NOW</button> <a style="padding-left: 10px;"></a>
+											<button class="btn add-button" type="submit"><i class="fa fa-plus" aria-hidden="true"></i> PLAYLIST</button> <a style="padding-left: 10px;"></a>
+										</div>
 									</div>
 								</div>
+								<hr>
 								<div class="posts-grid-inner">
 									<div class="posts-grid-left pr-0">
-										<a href="blog-single.html">
-											<img src="assets/images/m6.jpg" alt=" " class="img-fluid">
+										<a href="">
+											<img src="assets/images/14.png" alt=" " height="161">
 										</a>
 									</div>
 									<div class="posts-grid-right">
-										<p><span class="fa fa-clock-o mr-1" aria-hidden="true"></span> 12th May, 2020
-										</p>
+										<p> Opera Van Java . Entertaiment</p>
 										<h4>
-											<a href="blog-single.html" class="text-bl">Otam rem aperiam</a>
+											<a href="">Billy GAK TERIMA Dul Deketin Amanda Caesa Part 1</a>
 										</h4>
-										<span class="price"> <a href="blog-single.html"> <span class="fa fa-comments-o"></span> 15 Comments</a></span>
+										<h5>
+											<a href="">Sebuah program sketsa komedi yang ikonik & telah dikenal sangat luas oleh pemirsa 
+												layarkaca di tanah air kini hadir dengan format baru....</a>
+										</h5>
+										<div class="text-lg-left mt-3">
+											<button class="btn play-button" type="submit">WATCH NOW</button> <a style="padding-left: 10px;"></a>
+											<button class="btn add-button" type="submit"><i class="fa fa-plus" aria-hidden="true"></i> PLAYLIST</button> <a style="padding-left: 10px;"></a>
+										</div>
 									</div>
 								</div>
 							</div>
-						</aside>
-
-						<aside class="posts">
-							<h3 class="aside-title">Happy Faces</h3>
-							<div class="posts-grid">
-								<a href="blog-single.html">
-									<img src="assets/images/team1.jpg" alt=" " class="img-fluid">
-								</a>
-								<a href="blog-single.html">
-									<img src="assets/images/team2.jpg" alt=" " class="img-fluid">
-								</a>
-								<a href="blog-single.html">
-									<img src="assets/images/team3.jpg" alt=" " class="img-fluid">
-								</a>
-								<a href="blog-single.html">
-									<img src="assets/images/team4.jpg" alt=" " class="img-fluid">
-								</a>
-								<a href="blog-single.html">
-									<img src="assets/images/team5.jpg" alt=" " class="img-fluid">
-								</a>
-								<a href="blog-single.html">
-									<img src="assets/images/team6.jpg" alt=" " class="img-fluid">
-								</a>
+							<div class="pagination text-center">
+								<ul class="page-number">
+									<li style="padding-right: 220px;">Showing 1–5 of 15 results</li>
+									<li><a href="#number" class="active">1</a></li>
+									<li><a href="#number">2</a></li>
+									<li><a href="#number">3</a></li>
+									<li><a href="#number">4</a></li>
+									<li><a href="#number" class="next">Next Page <i class="fa fa-long-arrow-right" aria-hidden="true"></i> </a></li>
+								</ul>
 							</div>
 						</aside>
-
-
 					</div>
 					<!-- //right side bar -->
 				</div>
